@@ -26,7 +26,6 @@ jobs:
       - name: Extract project ZIP
         run: |
           mkdir -p project
-          unzip -o Arthashastra_V4_GitHub_Upload_Bundle.zip -d project
           unzip -o Arthashastra_V4_Project.zip -d project
 
       - name: Build APK
